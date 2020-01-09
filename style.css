@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+
+#wrapper {
+	width:960px;
+	margin-left:auto;
+	margin-right:auto;
+    background:white;
+	-webkit-box-shadow: 1px 1px 4px 3px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 1px 1px 4px 3px rgba(0, 0, 0, 0.2);
+	box-shadow: 1px 1px 4px 3px rgba(0, 0, 0, 0.2);
+}
+
+#header {
+	height:84px;
+	width:960px;
+	background:url(images/header.jpg) repeat-x;
+	border-bottom-width:7px;
+	border-bottom-style: solid;
+	border-bottom-color: #c1c1c1;
+}
+
+body {
+	margin:0px;
+	background:#ad101b url(images/bg.png) repeat-x;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#4f4f4f;
+	font-weight:normal;
+}
+
+#menu {
+	float:right;
+	height:50px; 
+	width:700px;
+	margin-top:-45px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+
+}
+#menu  ul {
+margin-left:27px;
+margin-top:15px;
+
+}
+
+table {font-weight:normal}
+
+#menu ul, #menu li a  {
+	text-decoration:none;
+}
+#menu li {
+	display:inline;
+	padding-right:2px;
+	background-image: url(http://www.americauk.com/images/star1.png);
+    background-repeat: no-repeat;
+    background-position: 0px 0px; 
+    padding-left: 16px; 
+}
+#menu li a:link, #menu li a:visited {
+	color:#66CCFF;
+}
+#menu li a:hover {
+	color:#e61818;
+}
+#footer {
+	margin-left:auto;
+	margin-right:auto;
+	width:960px;
+	height:70px;
+	background:red;
+	border-top-width: 7px;
+	border-top-style: solid;
+	border-top-color: #c1c1c1;
+	background:url(images/footer.png);
+	color:#FFF;
+	text-align:center;
+	padding-top:34px;
+}
+
+#onecolumnleft {
+	width:671px;
+	float:left;
+	background:#FFF;
+	
+}
+#content {
+	width:920px;
+	margin-left:20px;
+	margin-right:20px;
+}
+
+#sidebar {
+	background:#303030;
+	width:289px;
+	float:right;
+	height:1020px;
+}
+#specialoffer {
+	width:671px;
+	height:221px;
+	background:url(images/specialoffer.jpg);
+	float:left;
+}
+h1 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:17px;
+	color:#4f4f4f;
+	width:200px;
+	margin-left:0px;
+}
+p {
+	
+}
+
+.tits {
+	color:#FFF;
+}
+
+#footer a:link, #footer a:visited {
+	color:#FFF;
+	text-decoration:none;
+}
